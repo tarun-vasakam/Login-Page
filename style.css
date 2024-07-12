@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: 
+    #ccc8c7;
+}
+.left{
+    float:inline-start;
+}
+.right{
+    float: right;
+}
+.container{
+    margin: 45px 175px;
+    background-color: white;
+    position: relative;
+    height: 550px;
+    width:1000px;
+    /* border: 1px solid black; */
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.582), 7px 7px 10px white inset ;
+}
+.left{
+    float: inline-start;
+}
+.left-img{
+    position: absolute;
+    width: 45%;
+    height: 550px;
+    border-radius: 15px;
+    z-index: -1;
+}
+.left-text{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Lemon,sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-bottom: 8px;;
+}
+.left-text-sub{
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: rgba(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: 0;
+    margin-left: 116px;
+}
+.welcome{
+    font-weight: bolder;
+    font-size:76px;
+    color:  #aaacbb;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+.subgroup{
+    font-size: 14px;
+    color: rgb(107, 105, 103);
+    margin-left: 120px;
+    margin-bottom: 0px 120px;
+}
+.imgg{
+    margin-left: 135px;
+}
+.imgg img{
+    height: 25px;
+    padding-left: 10px;
+}
+input{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+.subgroup1{
+    font-size: 11px;
+    color: rgb(107, 105, 103);
+    margin-left: 120px;
+    margin-bottom: 0px 120px;
+    margin-left: 223px;
+    text-decoration: underline;
+}
+.login{
+    padding: 9px 80px;
+    margin-top: 20px;
+    margin-left: 74px;
+    font-weight: bold;
+    color: white;
+    background-color: #aaacbb;
+    border: solid transparent;
+    border-radius: 4px;
+}
+.or{
+    color: rgb(107, 105, 103);
+    padding-left: 40px; 
+}
+.subgroup2{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-left: 55px;
+    margin-bottom: 0px 120px;
+}
+a{
+    text-decoration: underline;
+    color: black;
+}
+
